@@ -1,0 +1,58 @@
+#cardwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+}
+
+section {
+    border: 3px solid rgb(71, 71, 71);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+section:hover {
+height: 300px;
+
+}
+
+#cardwrapper section p {
+    font-size: 2em;
+    text-shadow: 0 0 4px white, -2px -2px 3px pink;
+} 
+
+#s1 {
+    background-image: url('../img/dusan-veverkolog-ah7KHxYg6Ow-unsplash.jpg');
+    background-size: cover;
+}
+
+#s2 {
+    background-image: url('../img/kulli-kittus-qyt0cPByJjs-unsplash.jpg');
+    background-size: cover;
+}
+
+#s3 {
+    background-image: url('../img/laura-college-K_Na5gCmh38-unsplash.jpg');
+    background-size: cover;
+    background-position: 0px -100px;
+}
+
+#s4 {
+    background-image: url('../img/george-hiles-cKLr1zNnCzg-unsplash.jpg');
+    background-size: cover;
+    background-position: 300px;
+}
+
+#s5 {
+    background-image: url('../img/seiji-seiji-6Jsf8Hyz77A-unsplash.jpg');
+    background-size: contain;
+}
+
+#s6 {
+    background-image: url('../img/milivoj-kuhar--6K_EdbipVM-unsplash.jpg');
+    background-size:cover;
+}
